@@ -66,7 +66,7 @@ baca (bilangan)
 
 hasil = bilangan % 2
 
-  jika(bilangan tidak = 0 ) maka
+  jika(hasil tidak = 0 ) maka
    
    cetak "bilangan ganjil" 
    
@@ -79,15 +79,13 @@ Program menghitung_luas_lingkaran
 
 deklarasi:
 
-var phi,r,hasil:angka
+var r,hasil:angka
 
 algoritma:
 
-baca (phi = 3,14)
-
 baca (r)
 
-luas = (phi * r * r)
+luas = (3,14 * r * r)
 
 tulis(luas)
 
@@ -103,9 +101,9 @@ algoritma
 
 baca (a)
 
-baca(b)
+baca (b)
 
-baca(c)
+baca (c)
 
 bilangan terbesar :
 
